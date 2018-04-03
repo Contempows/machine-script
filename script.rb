@@ -15,3 +15,5 @@ class Computer
     return @@users
   end
 end
+
+my_computer = Computer.new("admin","jfj;aj#FAscd")
