@@ -17,3 +17,5 @@ class Computer
 end
 
 my_computer = Computer.new("admin","jfj;aj#FAscd")
+
+puts "Your computer login information is: #{Computers.get_users}"
