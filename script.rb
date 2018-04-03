@@ -7,5 +7,8 @@ class Computer
     @@users[username] = password
   end
   def create(filename)
+    time = Time.now
+    @files[filename] = time
+    puts "your file has been uploaded"
   end
 end
