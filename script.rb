@@ -6,4 +6,6 @@ class Computer
     @files = {}
     @@users[username] = password
   end
+  def create(filename)
+  end
 end
