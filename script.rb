@@ -11,4 +11,7 @@ class Computer
     @files[filename] = time
     puts "your file has been uploaded"
   end
+  def Computer.get_users
+    return @@users
+  end
 end
